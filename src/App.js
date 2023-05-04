@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import PokeSingle from "./components/PokeSingle";
 import PokeList from "./components/PokeList";
 import Layout from "./pages/Layout";
+import "./App.css";
 
 const App = () => {
   return (
