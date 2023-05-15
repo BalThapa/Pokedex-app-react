@@ -1,4 +1,4 @@
-.cards {
+.card {
     box-shadow: 0 0 5px rgb(92, 92, 92);
     border-radius: 5px;
     background: white;
@@ -9,6 +9,7 @@
     padding: 1rem;
   }
   .cards img {
-    width: 50px;
+    width: 15vw;
+    height: 40vh;
   }
   

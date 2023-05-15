@@ -1,24 +1,15 @@
 .header {
+    height: 2em;
+    padding: 1em;
     background-color: #333;
-    padding: 1rem;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .header a {
     color: white;
-    text-decoration: none;
-    
-  }.header {
-    background-color: #333;
-    padding: 1rem;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-decoration: none; 
   }
-  .header a {
-    color: white;
-    text-decoration: none;
-  }
+  
