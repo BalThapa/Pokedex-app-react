@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box{
+    position:absolute;
+    height: 10em;
+    width: 10em;
+    background-image: url('../assets/pokelogo.png') ;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3rem;
+    z-index:0;
+    overflow:hidden;
+
+    animation-name: rotate360;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+  
