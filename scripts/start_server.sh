@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo chmod -R 777 /home/ec2-user/pokedex
+sudo chmod -R 777 /home/ec2-user/Pokedex-app-react
 
 cd /home/ec2-user/pokedex
 
